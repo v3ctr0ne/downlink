@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "DownLink",
+  "version": "1.0.0",
+  "description": "A silent, set-and-forget background utility that automatically resumes downloads broken by network drops.",
+  "permissions": [
+    "downloads",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
